@@ -1,0 +1,13 @@
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\bin\Debug\BlackJack version Tim.exe.config
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\bin\Debug\BlackJack version Tim.exe
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\bin\Debug\BlackJack version Tim.pdb
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\obj\Debug\BlackJack version Tim.csprojResolveAssemblyReference.cache
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\obj\Debug\BlackJack_version_Tim.Form1.resources
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\obj\Debug\BlackJack_version_Tim.Properties.Resources.resources
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\obj\Debug\BlackJack version Tim.csproj.GenerateResource.Cache
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\obj\Debug\BlackJack version Tim.exe
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\obj\Debug\BlackJack version Tim.pdb
+c:\users\tim\documents\visual studio 2015\Projects\BlackJack version Tim\BlackJack version Tim\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Olivier\Desktop\fdsgdfdf\Statistiques\BlackJack version Tim\BlackJack version Tim\bin\Debug\BlackJack version Tim.exe.config
+C:\Users\Olivier\Desktop\fdsgdfdf\Statistiques\BlackJack version Tim\BlackJack version Tim\obj\Debug\BlackJack version Tim.exe
+C:\Users\Olivier\Desktop\fdsgdfdf\Statistiques\BlackJack version Tim\BlackJack version Tim\obj\Debug\BlackJack version Tim.pdb

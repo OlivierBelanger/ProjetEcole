@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2DC8ABFA-0EEF-4DFF-A1AE-E295207514B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BlackJack_version_Tim</RootNamespace>
+    <AssemblyName>BlackJack version Tim</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\as_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\As_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reine_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reine_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reine_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reine_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roi_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roi_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roi_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roi_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valet_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valet_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valet_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valet_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\as_carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\as_coeur.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
